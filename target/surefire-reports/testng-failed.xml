@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="Test.TestAfiliarGrupoEconomico">
+        <methods>
+          <include name="testAfiliarGrupoEconomico"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Test.TestAfiliarGrupoEconomico -->
+      <class name="Test.TestAutenticacion">
+        <methods>
+          <include name="testAutenticacion"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Test.TestAutenticacion -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
